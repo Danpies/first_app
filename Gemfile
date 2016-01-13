@@ -45,6 +45,7 @@ group :development do
   gem 'spring'
 end
 
+ruby '2.2.3-p173'
 gem 'puma'
 gem 'rails_12factor'
 
