@@ -47,5 +47,10 @@ end
 
 ruby '2.3.0'
 gem 'puma'
-gem 'rails_12factor'
+gem 'heroku'
+gem 'cowsay'
+
+group :production do
+  gem 'rails_12factor'
+end
 
