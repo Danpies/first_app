@@ -52,6 +52,5 @@ gem 'cowsay'
 
 group :production do
   gem 'rails_12factor'
-  gem 'pg'
 end
 
